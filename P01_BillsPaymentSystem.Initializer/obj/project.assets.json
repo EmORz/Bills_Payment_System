@@ -907,6 +907,20 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
+      "P01_BillsPaymentSystem.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.2",
+          "P01_BillsPaymentSystem.Data.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/P01_BillsPaymentSystem.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/P01_BillsPaymentSystem.Data.dll": {}
+        }
+      },
       "P01_BillsPaymentSystem.Data.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -3469,6 +3483,11 @@
         "system.threading.tasks.nuspec"
       ]
     },
+    "P01_BillsPaymentSystem.Data/1.0.0": {
+      "type": "project",
+      "path": "../P01_BillsPaymentSystem.Data/P01_BillsPaymentSystem.Data.csproj",
+      "msbuildProject": "../P01_BillsPaymentSystem.Data/P01_BillsPaymentSystem.Data.csproj"
+    },
     "P01_BillsPaymentSystem.Data.Models/1.0.0": {
       "type": "project",
       "path": "../P01_BillsPaymentSystem.Data.Models/P01_BillsPaymentSystem.Data.Models.csproj",
@@ -3477,9 +3496,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Microsoft.EntityFrameworkCore.SqlServer >= 2.2.2",
       "Microsoft.NETCore.App >= 2.1.0",
-      "P01_BillsPaymentSystem.Data.Models >= 1.0.0"
+      "P01_BillsPaymentSystem.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3489,11 +3507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem.Data\\P01_BillsPaymentSystem.Data.csproj",
-      "projectName": "P01_BillsPaymentSystem.Data",
-      "projectPath": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem.Data\\P01_BillsPaymentSystem.Data.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem.Initializer\\P01_BillsPaymentSystem.Initializer.csproj",
+      "projectName": "P01_BillsPaymentSystem.Initializer",
+      "projectPath": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem.Initializer\\P01_BillsPaymentSystem.Initializer.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem.Data\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem.Initializer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3512,8 +3530,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem.Data.Models\\P01_BillsPaymentSystem.Data.Models.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem.Data.Models\\P01_BillsPaymentSystem.Data.Models.csproj"
+            "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem.Data\\P01_BillsPaymentSystem.Data.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem.Data\\P01_BillsPaymentSystem.Data.csproj"
             }
           }
         }
@@ -3527,10 +3545,6 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "[2.2.2, )"
-          },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",

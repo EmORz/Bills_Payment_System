@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\P01_BillsPaymentSystem.Data.Models\\P01_BillsPaymentSystem.Data.Models.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem.Data.Models\\P01_BillsPaymentSystem.Data.Models.csproj",
       "projectName": "P01_BillsPaymentSystem.Data.Models",
-      "projectPath": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\P01_BillsPaymentSystem.Data.Models\\P01_BillsPaymentSystem.Data.Models.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem.Data.Models\\P01_BillsPaymentSystem.Data.Models.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\P01_BillsPaymentSystem.Data.Models\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem.Data.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

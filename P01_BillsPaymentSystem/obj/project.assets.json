@@ -3507,11 +3507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\P01_BillsPaymentSystem\\P01_BillsPaymentSystem.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem\\P01_BillsPaymentSystem.csproj",
       "projectName": "P01_BillsPaymentSystem",
-      "projectPath": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\P01_BillsPaymentSystem\\P01_BillsPaymentSystem.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem\\P01_BillsPaymentSystem.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\P01_BillsPaymentSystem\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3530,8 +3530,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\P01_BillsPaymentSystem.Data\\P01_BillsPaymentSystem.Data.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\P01_BillsPaymentSystem.Data\\P01_BillsPaymentSystem.Data.csproj"
+            "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem.Data\\P01_BillsPaymentSystem.Data.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem.Data\\P01_BillsPaymentSystem.Data.csproj"
             }
           }
         }
