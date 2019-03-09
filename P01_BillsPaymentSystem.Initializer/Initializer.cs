@@ -7,6 +7,7 @@ namespace P01_BillsPaymentSystem.Initializer
 {
     public class Initializer
     {
+        //pokop
         public static void Seed(BillsPaymentSystemContext context)
         {
             InsertBankAccount(context);
