@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using P01_BillsPaymentSystem.Data;
+using P01_BillsPaymentSystem.Data.Models;
 
 namespace P01_BillsPaymentSystem.Initializer
 {
     public class Initializer
     {
-        //pokop
+        
         public static void Seed(BillsPaymentSystemContext context)
         {
             InsertBankAccount(context);
@@ -18,17 +19,45 @@ namespace P01_BillsPaymentSystem.Initializer
 
         private static void InsertUser(BillsPaymentSystemContext context)
         {
-            throw new NotImplementedException();
+            var users = UserInitializer.GetUsers();
+
+            for (int i = 0; i < users.Length; i++)
+            {
+                if (IsValid(users[i]))
+                {
+                    context.Users.Add(users[i]);
+                }
+            }
+            context.SaveChanges();
         }
 
         private static void InsertPaymentMethod(BillsPaymentSystemContext context)
         {
-            throw new NotImplementedException();
+
+            var paymentMethods = PaymentMethodInitializer.GetPaymentMethods();
+
+            for (int i = 0; i < paymentMethods.Length; i++)
+            {
+                if (IsValid(paymentMethods[i]))
+                {
+                    context.PaymentMethods.Add(paymentMethods[i]);
+                }
+            }
+            context.SaveChanges();
         }
 
         private static void InsertCreditCard(BillsPaymentSystemContext context)
         {
-            throw new NotImplementedException();
+            var creditCards = CreditCardInitializer.GeCreditCards();
+
+            for (int i = 0; i < creditCards.Length; i++)
+            {
+                if (IsValid(creditCards[i]))
+                {
+                    context.CreditCards.Add(creditCards[i]);
+                }
+            }
+            context.SaveChanges();
         }
 
         private static void InsertBankAccount(BillsPaymentSystemContext context)

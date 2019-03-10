@@ -25,5 +25,27 @@ namespace P01_BillsPaymentSystem.Data.Models
 
         public PaymentMethod PaymentMethod { get; set; }
 
+        //Method =>
+        //Add Withdraw() and Deposit() methods to the BankAccount and CreditCard classes
+
+        public void Deposit(decimal amount)
+        {
+            if (amount >= 0)
+            {
+                this.MoneyOwed -= amount;
+            }
+
+        }
+
+        public void Withdraw(decimal amount)
+        {
+            if (this.LimitLeft - amount >= 0)
+            {
+                this.MoneyOwed += amount;
+            }
+        }
+
+
+
     }
 }

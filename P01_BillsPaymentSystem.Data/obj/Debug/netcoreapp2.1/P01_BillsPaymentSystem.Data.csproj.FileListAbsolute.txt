@@ -10,3 +10,15 @@ C:\Users\User\source\repos\Bills_Payment_System\P01_BillsPaymentSystem.Data\bin\
 C:\Users\User\source\repos\Bills_Payment_System\P01_BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\P01_BillsPaymentSystem.Data.csproj.CopyComplete
 C:\Users\User\source\repos\Bills_Payment_System\P01_BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\P01_BillsPaymentSystem.Data.dll
 C:\Users\User\source\repos\Bills_Payment_System\P01_BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\P01_BillsPaymentSystem.Data.pdb
+C:\Users\User\source\repos\Bills_Payment_System\Bills_Payment_System\P01_BillsPaymentSystem.Data\bin\Debug\netcoreapp2.1\P01_BillsPaymentSystem.Data.deps.json
+C:\Users\User\source\repos\Bills_Payment_System\Bills_Payment_System\P01_BillsPaymentSystem.Data\bin\Debug\netcoreapp2.1\P01_BillsPaymentSystem.Data.dll
+C:\Users\User\source\repos\Bills_Payment_System\Bills_Payment_System\P01_BillsPaymentSystem.Data\bin\Debug\netcoreapp2.1\P01_BillsPaymentSystem.Data.pdb
+C:\Users\User\source\repos\Bills_Payment_System\Bills_Payment_System\P01_BillsPaymentSystem.Data\bin\Debug\netcoreapp2.1\P01_BillsPaymentSystem.Data.Models.dll
+C:\Users\User\source\repos\Bills_Payment_System\Bills_Payment_System\P01_BillsPaymentSystem.Data\bin\Debug\netcoreapp2.1\P01_BillsPaymentSystem.Data.Models.pdb
+C:\Users\User\source\repos\Bills_Payment_System\Bills_Payment_System\P01_BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\P01_BillsPaymentSystem.Data.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Bills_Payment_System\Bills_Payment_System\P01_BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\P01_BillsPaymentSystem.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Bills_Payment_System\Bills_Payment_System\P01_BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\P01_BillsPaymentSystem.Data.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Bills_Payment_System\Bills_Payment_System\P01_BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\P01_BillsPaymentSystem.Data.AssemblyInfo.cs
+C:\Users\User\source\repos\Bills_Payment_System\Bills_Payment_System\P01_BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\P01_BillsPaymentSystem.Data.csproj.CopyComplete
+C:\Users\User\source\repos\Bills_Payment_System\Bills_Payment_System\P01_BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\P01_BillsPaymentSystem.Data.dll
+C:\Users\User\source\repos\Bills_Payment_System\Bills_Payment_System\P01_BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\P01_BillsPaymentSystem.Data.pdb

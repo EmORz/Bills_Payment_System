@@ -930,6 +930,19 @@
         "runtime": {
           "bin/placeholder/P01_BillsPaymentSystem.Data.Models.dll": {}
         }
+      },
+      "P01_BillsPaymentSystem.Initializer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "P01_BillsPaymentSystem.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/P01_BillsPaymentSystem.Initializer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/P01_BillsPaymentSystem.Initializer.dll": {}
+        }
       }
     }
   },
@@ -3492,12 +3505,18 @@
       "type": "project",
       "path": "../P01_BillsPaymentSystem.Data.Models/P01_BillsPaymentSystem.Data.Models.csproj",
       "msbuildProject": "../P01_BillsPaymentSystem.Data.Models/P01_BillsPaymentSystem.Data.Models.csproj"
+    },
+    "P01_BillsPaymentSystem.Initializer/1.0.0": {
+      "type": "project",
+      "path": "../P01_BillsPaymentSystem.Initializer/P01_BillsPaymentSystem.Initializer.csproj",
+      "msbuildProject": "../P01_BillsPaymentSystem.Initializer/P01_BillsPaymentSystem.Initializer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
-      "P01_BillsPaymentSystem.Data >= 1.0.0"
+      "P01_BillsPaymentSystem.Data >= 1.0.0",
+      "P01_BillsPaymentSystem.Initializer >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3532,6 +3551,9 @@
           "projectReferences": {
             "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem.Data\\P01_BillsPaymentSystem.Data.csproj": {
               "projectPath": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem.Data\\P01_BillsPaymentSystem.Data.csproj"
+            },
+            "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem.Initializer\\P01_BillsPaymentSystem.Initializer.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\Bills_Payment_System\\Bills_Payment_System\\P01_BillsPaymentSystem.Initializer\\P01_BillsPaymentSystem.Initializer.csproj"
             }
           }
         }

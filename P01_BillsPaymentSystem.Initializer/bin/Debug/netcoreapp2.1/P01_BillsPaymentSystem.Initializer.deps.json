@@ -6,13 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "P01_BillsPaymentSystem/1.0.0": {
+      "P01_BillsPaymentSystem.Initializer/1.0.0": {
         "dependencies": {
-          "P01_BillsPaymentSystem.Data": "1.0.0",
-          "P01_BillsPaymentSystem.Initializer": "1.0.0"
+          "P01_BillsPaymentSystem.Data": "1.0.0"
         },
         "runtime": {
-          "P01_BillsPaymentSystem.dll": {}
+          "P01_BillsPaymentSystem.Initializer.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore/2.2.2": {
@@ -514,19 +513,11 @@
         "runtime": {
           "P01_BillsPaymentSystem.Data.Models.dll": {}
         }
-      },
-      "P01_BillsPaymentSystem.Initializer/1.0.0": {
-        "dependencies": {
-          "P01_BillsPaymentSystem.Data": "1.0.0"
-        },
-        "runtime": {
-          "P01_BillsPaymentSystem.Initializer.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "P01_BillsPaymentSystem/1.0.0": {
+    "P01_BillsPaymentSystem.Initializer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -908,11 +899,6 @@
       "sha512": ""
     },
     "P01_BillsPaymentSystem.Data.Models/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "P01_BillsPaymentSystem.Initializer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

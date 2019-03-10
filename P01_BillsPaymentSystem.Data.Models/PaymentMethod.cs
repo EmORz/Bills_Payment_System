@@ -19,11 +19,12 @@ namespace P01_BillsPaymentSystem.Data.Models
         public int UserId { get; set; }
         public User User { get; set; }
 
-        public int? BankAccountId { get; set; }
-        public BankAccount BankAccount { get; set; }
-
         [Xor(nameof(BankAccount))]
         public int? CreditCardId { get; set; }
         public CreditCard CreditCard { get; set; }
+
+        public int? BankAccountId { get; set; }
+        public BankAccount BankAccount { get; set; }
+
     }
 }
