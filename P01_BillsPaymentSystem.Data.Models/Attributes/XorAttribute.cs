@@ -28,6 +28,7 @@ namespace P01_BillsPaymentSystem.Data.Models.Attributes
 
             var errorMessage = "The two propertiest must have oposite values!";
 
+
             return new ValidationResult(errorMessage);
         }
     }
